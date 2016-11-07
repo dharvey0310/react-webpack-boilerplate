@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --inline",
-    "build": "webpack -p"
+    "start": "webpack-dev-server --config webpack.dev.config.js --inline",
+    "build": "webpack --config webpack.prod.config.js"
   },
   "author": "David Harvey",
   "license": "ISC",
